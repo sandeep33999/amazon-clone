@@ -1,0 +1,148 @@
+#main_footer{
+    height: 764px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    #Go_To_main{
+        background-color: #37475A;
+        color: #FFFFFF;
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #sub_footer{
+        height: 100%; 
+        width: 100%;
+    }
+
+}
+
+#sub_footer{
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    #div1_f{
+        background-color: #232F3E;                            /*it has applied*/
+        height: 100px;
+        width: 100%;
+        flex-grow: 1;
+    }
+    #div2_f{
+        background-color: #232F3E;
+        height: 68px;
+        width: 100%;
+    }
+    #div3_f{
+        background-color: #131A22;
+        color: #999999;
+        height: 156px;
+        width: 100%;
+    }
+    #div4_f{
+        background-color: #131A22;
+        color: #DDDDDD;
+        height: 76px;
+        width: 100%;
+    }
+}
+
+/*-----------------------------------1st div stared here-----------------------------*/
+#div1_f{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .s449{
+        display: flex;
+        justify-content: center;
+        height: 290px;
+        width: 130px;
+        margin-top: 5%;
+    }
+    #Sub_div1_f1{
+        margin-left: 15%;
+        #fafe{
+            padding: 5px;
+            margin: 5px;
+            height: 20px;
+        }
+    }
+    #Sub_div1_f2{
+        #fafe2{
+            padding: 5px;
+            margin: 5px;
+            height: 20px;
+        }
+    }
+    #Sub_div1_f3{
+        #fafe3{
+            padding: 5px;
+            margin: 5px;
+            height: 20px;
+        }
+    }
+    #Sub_div1_f4{
+        width:140px;
+        #fafe4{
+            padding: 5px;
+            margin: 5px;
+            height: 20px;
+        }
+    }
+    #Sub_div1_f3{
+        width: 207px;
+    }
+    #Sub_div1_f4{
+        margin-right: 15%;
+        width: 221px;
+    }
+}
+
+/*----------------For 2nd div--------------- */
+#div2_f{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+
+/* ---------------For 3rd div ---------------*/
+#div3_f{
+    display: flex;
+}
+
+#div3_f table{
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+#div3_f td {
+    padding: 10px;
+    text-align: center;
+    width: calc(100% / 6);
+  }
+
+
+
+/*--------------------------------------------for fourth div--------------------------------------------------*/
+#div4_f{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    color: #DDDDDD;
+    font-size: 12px;
+
+    #sub_div4_f{
+        display: flex;
+        p{
+            color: #DDDDDD;
+
+        }
+
+    }
+  }
+  
